@@ -1,0 +1,67 @@
+.navbar-main{
+    height: 120vh;
+    background-color:  blueviolet;
+    color: white;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-bottom: 0px;
+}
+.navbar-main img{
+    padding-left: 50px;
+    height: 15vh;
+}
+.navbar-main .navbar-links ul li a{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: lato;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.navbar-main .navbar-links li:hover a{
+    border: 2px solid blue;
+    border-style: inset;
+}
+.navbar-main .message{
+    color: whitesmoke;
+    padding-top: 20rem;
+    font-weight: bold;
+    font-family: inherit;
+}
+.navbar-main .message hr{
+    width: 40px;
+    line-height: 10px;
+    background-color: tomato;
+}
+.navbar-main .message button{
+    width: 20rem;
+    height: 6rem;
+    background-color: tomato;
+    color: inherit;
+    border-radius: 5rem;
+    border: none;
+    border-color: none;
+    font: 1.2em sans-serif;
+    margin-top: 2px;
+}
+.footer{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+.footer p{
+    padding-top: 8px;
+}
+.footer .navbar-nav{
+    font-size: 20px;
+    color: white;
+    padding-top: -5px;
+}
+.footer .navbar-nav .fa{
+    color: white;
+}
